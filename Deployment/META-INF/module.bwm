@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_q1ToQDHJEe6ZQbrBs66R7A" targetNamespace="http://tns.tibco.com/bw/composite/Deployment" name="Deployment" compositeext:version="1.0.0" compositeext:formatVersion="2">
+  <sca:property xmi:id="_t5BQ4DHJEe6ZQbrBs66R7A" name="BW.DEPLOYMENTUNIT.TYPE" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t5X2MDHJEe6ZQbrBs66R7A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t5iOQDHJEe6ZQbrBs66R7A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t5smUDHJEe6ZQbrBs66R7A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t54MgDHJEe6ZQbrBs66R7A" name="BW.DOMAIN.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t6BWcDHJEe6ZQbrBs66R7A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t6JSQDHJEe6ZQbrBs66R7A" name="BW.APPSPACE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t6QnADHJEe6ZQbrBs66R7A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_t6Yi0DHJEe6ZQbrBs66R7A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_QFg58DHLEe6ZQbrBs66R7A" name="Test" type="XMLSchema:string" publicAccess="true" scalable="true"/>
+  <sca:component xmi:id="_sB5-QDHJEe6ZQbrBs66R7A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_sB8agDHJEe6ZQbrBs66R7A" processName="deployment.Process"/>
+  </sca:component>
+</sca:composite>
